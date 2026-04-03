@@ -24,13 +24,11 @@
 
 html{
     scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
 }
 
 body{
     display: flex;
-    min-height: 100dvh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     align-items: center;
@@ -216,6 +214,14 @@ body{
 
     /* Changes reflects on screen with a width of 768px and below */
 
+    body{
+         min-height: 100vh;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+         overscroll-behavior-x: none;
+    }
+
    .box{
         width: auto;
         height: auto;
@@ -231,6 +237,14 @@ body{
 
 @media  screen and (max-width: 390px) {
 
+    body{
+         min-height: 100vh;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+         overscroll-behavior-x: none;
+    }
+
     .box{
         width: auto;
         height: auto;
@@ -245,6 +259,15 @@ body{
 /* Start of Media Query responsive website for 360px screens */
 
 @media  screen and (max-width: 360px) {
+
+    body{
+         min-height: 100vh;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+         overscroll-behavior-x: none;
+    }
+    
     .box{
         width: auto;
         height: auto;
