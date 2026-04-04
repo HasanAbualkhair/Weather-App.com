@@ -24,12 +24,7 @@
 
 html{
     scroll-behavior: smooth;
-     /* Background Variations for html */
-    background: linear-gradient(135deg, #1e3c72, #2a5298); 
-    background: linear-gradient(135deg, #fceabb, #f8b500);
-    background: linear-gradient(135deg, #616161, #9bc5c3);
-    background: linear-gradient(135deg, #bdc3c7, #2c3e50);
-    background: linear-gradient(135deg, #83a4d4, #b6fbff);
+    background: #1e3c72;
 }
 
 body{
